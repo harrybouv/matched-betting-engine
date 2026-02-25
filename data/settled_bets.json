@@ -1,0 +1,2222 @@
+[
+  {
+    "settlement": {
+      "bet_id": "458d34fc7c",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 5.986089130930755,
+      "realised_profit": 5.986089130930755,
+      "settled_at": "2025-10-29T14:38:38Z"
+    },
+    "bet": {
+      "bet_id": "458d34fc7c",
+      "candidate": {
+        "team": "Team 26",
+        "bookmaker": "WilliamHill",
+        "offer_type": "freebet_snr",
+        "back_odds": 2.338762078367648,
+        "back_stake": 10.76,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.378297388361168,
+        "lay_size": 0.0,
+        "lay_stake": 6.108254215235465,
+        "lay_liability": 8.418990832305136,
+        "guaranteed_profit": 5.986089130930755,
+        "roi": 0.556327986145981,
+        "created_at": "2025-10-27T23:39:31Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.378297388361168,
+      "matched_lay_stake": 6.108254215235465,
+      "avg_lay_odds": 2.378297388361168,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "e51f66d92f",
+      "result": "win",
+      "actual_bookie_payout": 28.701929237063467,
+      "actual_exchange_pnl": -17.876160084558183,
+      "realised_profit": -0.6642308474947161,
+      "settled_at": "2025-10-29T14:56:22Z"
+    },
+    "bet": {
+      "bet_id": "e51f66d92f",
+      "candidate": {
+        "team": "Team 617",
+        "bookmaker": "Bet365",
+        "offer_type": "qualifying",
+        "back_odds": 2.497992100701781,
+        "back_stake": 11.49,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.6182348465109175,
+        "lay_size": 0.0,
+        "lay_stake": 11.046703216842129,
+        "lay_liability": 17.876160084558183,
+        "guaranteed_profit": -0.6642308474947178,
+        "roi": -0.05780947323713819,
+        "created_at": "2025-10-28T12:38:43Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.6182348465109175,
+      "matched_lay_stake": 11.046703216842129,
+      "avg_lay_odds": 2.6182348465109175,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "27c06feaae",
+      "result": "win",
+      "actual_bookie_payout": 20.462542420213108,
+      "actual_exchange_pnl": -14.535826243753755,
+      "realised_profit": 5.926716176459353,
+      "settled_at": "2025-10-29T14:57:22Z"
+    },
+    "bet": {
+      "bet_id": "27c06feaae",
+      "candidate": {
+        "team": "Team 778",
+        "bookmaker": "SkyBet",
+        "offer_type": "freebet_snr",
+        "back_odds": 3.3359066689740993,
+        "back_stake": 8.76,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.403541741286618,
+        "lay_size": 0.0,
+        "lay_stake": 6.0476695678156664,
+        "lay_liability": 14.535826243753755,
+        "guaranteed_profit": 5.926716176459353,
+        "roi": 0.6765657735684193,
+        "created_at": "2025-10-28T15:13:55Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.403541741286618,
+      "matched_lay_stake": 6.0476695678156664,
+      "avg_lay_odds": 3.403541741286618,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "e204127884",
+      "result": "win",
+      "actual_bookie_payout": 36.61033914565581,
+      "actual_exchange_pnl": -26.301958361176293,
+      "realised_profit": 10.308380784479514,
+      "settled_at": "2025-10-31T20:47:39Z"
+    },
+    "bet": {
+      "bet_id": "e204127884",
+      "candidate": {
+        "team": "Team 827",
+        "bookmaker": "Bet365",
+        "offer_type": "freebet_snr",
+        "back_odds": 3.4054099307263996,
+        "back_stake": 15.22,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.500481863530058,
+        "lay_size": 0.0,
+        "lay_stake": 10.518755902530113,
+        "lay_liability": 26.301958361176293,
+        "guaranteed_profit": 10.30838078447951,
+        "roi": 0.67729177296186,
+        "created_at": "2025-10-30T23:19:20Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.500481863530058,
+      "matched_lay_stake": 10.518755902530113,
+      "avg_lay_odds": 3.500481863530058,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "87eda8a741",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 3.8157725693499627,
+      "realised_profit": 3.8157725693499627,
+      "settled_at": "2025-10-31T20:47:50Z"
+    },
+    "bet": {
+      "bet_id": "87eda8a741",
+      "candidate": {
+        "team": "Team 883",
+        "bookmaker": "WilliamHill",
+        "offer_type": "freebet_snr",
+        "back_odds": 3.0701747195648768,
+        "back_stake": 5.96,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.188814776634966,
+        "lay_size": 0.0,
+        "lay_stake": 3.8936454789285335,
+        "lay_liability": 8.522468759256704,
+        "guaranteed_profit": 3.815772569349962,
+        "roi": 0.6402302968707989,
+        "created_at": "2025-10-30T09:26:20Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.188814776634966,
+      "matched_lay_stake": 3.8936454789285335,
+      "avg_lay_odds": 3.188814776634966,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "54461bcbd2",
+      "result": "win",
+      "actual_bookie_payout": 18.56640050598342,
+      "actual_exchange_pnl": -10.039140092577895,
+      "realised_profit": -0.5527395865944751,
+      "settled_at": "2025-10-31T21:08:33Z"
+    },
+    "bet": {
+      "bet_id": "54461bcbd2",
+      "candidate": {
+        "team": "Team 104",
+        "bookmaker": "PaddyPower",
+        "offer_type": "qualifying",
+        "back_odds": 2.0447577649761475,
+        "back_stake": 9.08,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.1537535871731635,
+        "lay_size": 0.0,
+        "lay_stake": 8.701286136128086,
+        "lay_liability": 10.039140092577895,
+        "guaranteed_profit": -0.5527395865944751,
+        "roi": -0.060874403809964214,
+        "created_at": "2025-10-31T07:31:40Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.1537535871731635,
+      "matched_lay_stake": 8.701286136128086,
+      "avg_lay_odds": 2.1537535871731635,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "2de747eed3",
+      "result": "win",
+      "actual_bookie_payout": 37.304247964112406,
+      "actual_exchange_pnl": -25.75000878749659,
+      "realised_profit": 11.554239176615816,
+      "settled_at": "2025-11-03T21:31:57Z"
+    },
+    "bet": {
+      "bet_id": "2de747eed3",
+      "candidate": {
+        "team": "Team 664",
+        "bookmaker": "Bet365",
+        "offer_type": "freebet_sr",
+        "back_odds": 3.140088212467374,
+        "back_stake": 11.88,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.1840476232151076,
+        "lay_size": 0.0,
+        "lay_stake": 11.790039976138589,
+        "lay_liability": 25.75000878749659,
+        "guaranteed_profit": 11.554239176615816,
+        "roi": 0.9725790552706916,
+        "created_at": "2025-11-02T04:30:07Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.1840476232151076,
+      "matched_lay_stake": 11.790039976138589,
+      "avg_lay_odds": 3.1840476232151076,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "cf935d00ae",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 8.223923550101453,
+      "realised_profit": 8.223923550101453,
+      "settled_at": "2025-11-03T22:01:24Z"
+    },
+    "bet": {
+      "bet_id": "cf935d00ae",
+      "candidate": {
+        "team": "Team 571",
+        "bookmaker": "SkyBet",
+        "offer_type": "freebet_snr",
+        "back_odds": 3.306151352177724,
+        "back_stake": 12.46,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.4441506210042974,
+        "lay_size": 0.0,
+        "lay_stake": 8.39175872459332,
+        "lay_liability": 20.51072229803299,
+        "guaranteed_profit": 8.223923550101453,
+        "roi": 0.6600259671028453,
+        "created_at": "2025-11-02T05:58:44Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.4441506210042974,
+      "matched_lay_stake": 8.39175872459332,
+      "avg_lay_odds": 3.4441506210042974,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "d0d87c22d4",
+      "result": "win",
+      "actual_bookie_payout": 28.365760118514455,
+      "actual_exchange_pnl": -14.536340596254924,
+      "realised_profit": -0.7905804777404679,
+      "settled_at": "2025-11-03T22:08:16Z"
+    },
+    "bet": {
+      "bet_id": "d0d87c22d4",
+      "candidate": {
+        "team": "Team 217",
+        "bookmaker": "WilliamHill",
+        "offer_type": "qualifying",
+        "back_odds": 1.940202470486625,
+        "back_stake": 14.62,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.030094846815544,
+        "lay_size": 0.0,
+        "lay_stake": 14.111652573734215,
+        "lay_liability": 14.536340596254924,
+        "guaranteed_profit": -0.7905804777404679,
+        "roi": -0.05407527207527141,
+        "created_at": "2025-11-03T17:03:53Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.030094846815544,
+      "matched_lay_stake": 14.111652573734215,
+      "avg_lay_odds": 2.030094846815544,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "3792f324a1",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 7.450088634902728,
+      "realised_profit": 7.450088634902728,
+      "settled_at": "2025-11-03T22:35:37Z"
+    },
+    "bet": {
+      "bet_id": "3792f324a1",
+      "candidate": {
+        "team": "Team 552",
+        "bookmaker": "WilliamHill",
+        "offer_type": "freebet_snr",
+        "back_odds": 3.4434303856349677,
+        "back_stake": 10.9,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.523411121456209,
+        "lay_size": 0.0,
+        "lay_stake": 7.602131260104825,
+        "lay_liability": 19.183302568518418,
+        "guaranteed_profit": 7.450088634902728,
+        "roi": 0.6834943701745622,
+        "created_at": "2025-11-02T04:09:25Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.523411121456209,
+      "matched_lay_stake": 7.602131260104825,
+      "avg_lay_odds": 3.523411121456209,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "3ba8f7091e",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 5.293164090937119,
+      "realised_profit": -0.14683590906288124,
+      "settled_at": "2025-11-03T22:41:18Z"
+    },
+    "bet": {
+      "bet_id": "3ba8f7091e",
+      "candidate": {
+        "team": "Team 774",
+        "bookmaker": "Bet365",
+        "offer_type": "qualifying",
+        "back_odds": 2.9777646554666655,
+        "back_stake": 5.44,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.019162440175422,
+        "lay_size": 0.0,
+        "lay_stake": 5.401187847895019,
+        "lay_liability": 10.905875634801543,
+        "guaranteed_profit": -0.14683590906288302,
+        "roi": -0.026991895048324083,
+        "created_at": "2025-11-03T10:13:36Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.019162440175422,
+      "matched_lay_stake": 5.401187847895019,
+      "avg_lay_odds": 3.019162440175422,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "7384beb890",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 11.025111908574742,
+      "realised_profit": -0.6548880914252582,
+      "settled_at": "2025-11-03T22:51:29Z"
+    },
+    "bet": {
+      "bet_id": "7384beb890",
+      "candidate": {
+        "team": "Team 480",
+        "bookmaker": "WilliamHill",
+        "offer_type": "qualifying",
+        "back_odds": 3.153725404181789,
+        "back_stake": 11.68,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.2942345624946188,
+        "lay_size": 0.0,
+        "lay_stake": 11.250114192423206,
+        "lay_liability": 25.810400812268554,
+        "guaranteed_profit": -0.6548880914252582,
+        "roi": -0.05606918590969676,
+        "created_at": "2025-11-03T00:01:01Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.2942345624946188,
+      "matched_lay_stake": 11.250114192423206,
+      "avg_lay_odds": 3.2942345624946188,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "a436a513d0",
+      "result": "win",
+      "actual_bookie_payout": 28.353427168244846,
+      "actual_exchange_pnl": -17.05582716893869,
+      "realised_profit": -0.8924000006938453,
+      "settled_at": "2025-11-06T22:51:22Z"
+    },
+    "bet": {
+      "bet_id": "a436a513d0",
+      "candidate": {
+        "team": "Team 446",
+        "bookmaker": "SkyBet",
+        "offer_type": "qualifying",
+        "back_odds": 2.3259579301267306,
+        "back_stake": 12.19,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.479492159979682,
+        "lay_size": 0.0,
+        "lay_stake": 11.528163264598117,
+        "lay_liability": 17.05582716893869,
+        "guaranteed_profit": -0.8924000006938471,
+        "roi": -0.07320754722673069,
+        "created_at": "2025-11-05T17:10:14Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.479492159979682,
+      "matched_lay_stake": 11.528163264598117,
+      "avg_lay_odds": 2.479492159979682,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "93625a5d4d",
+      "result": "win",
+      "actual_bookie_payout": 24.466206192062167,
+      "actual_exchange_pnl": -18.025560999151022,
+      "realised_profit": 6.440645192911145,
+      "settled_at": "2025-11-06T23:49:20Z"
+    },
+    "bet": {
+      "bet_id": "93625a5d4d",
+      "candidate": {
+        "team": "Team 892",
+        "bookmaker": "WilliamHill",
+        "offer_type": "freebet_sr",
+        "back_odds": 3.651672565979428,
+        "back_stake": 6.7,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.7427453694562964,
+        "lay_size": 0.0,
+        "lay_stake": 6.572086931541985,
+        "lay_liability": 18.025560999151022,
+        "guaranteed_profit": 6.440645192911145,
+        "roi": 0.9612903273001708,
+        "created_at": "2025-11-06T05:00:35Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.7427453694562964,
+      "matched_lay_stake": 6.572086931541985,
+      "avg_lay_odds": 3.7427453694562964,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "22b842492e",
+      "result": "win",
+      "actual_bookie_payout": 18.144886459428776,
+      "actual_exchange_pnl": -12.563742034620667,
+      "realised_profit": 5.581144424808109,
+      "settled_at": "2025-11-07T21:59:20Z"
+    },
+    "bet": {
+      "bet_id": "22b842492e",
+      "candidate": {
+        "team": "Team 941",
+        "bookmaker": "Bet365",
+        "offer_type": "freebet_sr",
+        "back_odds": 3.117678085812504,
+        "back_stake": 5.82,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.206082884936557,
+        "lay_size": 0.0,
+        "lay_stake": 5.695045331436846,
+        "lay_liability": 12.563742034620667,
+        "guaranteed_profit": 5.581144424808109,
+        "roi": 0.9589595231629052,
+        "created_at": "2025-11-07T19:38:24Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.206082884936557,
+      "matched_lay_stake": 5.695045331436846,
+      "avg_lay_odds": 3.206082884936557,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "ee91abc194",
+      "result": "win",
+      "actual_bookie_payout": 19.645984868620335,
+      "actual_exchange_pnl": -8.979964248975179,
+      "realised_profit": -0.6439793803548444,
+      "settled_at": "2025-11-07T22:09:46Z"
+    },
+    "bet": {
+      "bet_id": "ee91abc194",
+      "candidate": {
+        "team": "Team 247",
+        "bookmaker": "Bet365",
+        "offer_type": "qualifying",
+        "back_odds": 1.7370455233086062,
+        "back_stake": 11.31,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 1.825084188172932,
+        "lay_size": 0.0,
+        "lay_stake": 10.883694509841995,
+        "lay_liability": 8.979964248975179,
+        "guaranteed_profit": -0.6439793803548461,
+        "roi": -0.05693893725507039,
+        "created_at": "2025-11-06T05:10:05Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 1.825084188172932,
+      "matched_lay_stake": 10.883694509841995,
+      "avg_lay_odds": 1.825084188172932,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "96ee193994",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 12.732561642398503,
+      "realised_profit": -0.7974383576014965,
+      "settled_at": "2025-11-07T22:18:29Z"
+    },
+    "bet": {
+      "bet_id": "96ee193994",
+      "candidate": {
+        "team": "Team 894",
+        "bookmaker": "PaddyPower",
+        "offer_type": "qualifying",
+        "back_odds": 3.1429806496119284,
+        "back_stake": 13.53,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.293028538632233,
+        "lay_size": 0.0,
+        "lay_stake": 12.992409839182146,
+        "lay_liability": 29.791966546850883,
+        "guaranteed_profit": -0.7974383576014965,
+        "roi": -0.05893853345169967,
+        "created_at": "2025-11-07T12:45:42Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.293028538632233,
+      "matched_lay_stake": 12.992409839182146,
+      "avg_lay_odds": 3.293028538632233,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "621a622ec6",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 5.776940327830489,
+      "realised_profit": 5.776940327830489,
+      "settled_at": "2025-11-07T22:18:43Z"
+    },
+    "bet": {
+      "bet_id": "621a622ec6",
+      "candidate": {
+        "team": "Team 383",
+        "bookmaker": "PaddyPower",
+        "offer_type": "freebet_snr",
+        "back_odds": 3.7791509862144803,
+        "back_stake": 8.15,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.8623590460092383,
+        "lay_size": 0.0,
+        "lay_stake": 5.894837069214785,
+        "lay_liability": 16.873140209817524,
+        "guaranteed_profit": 5.776940327830489,
+        "roi": 0.7088270340896304,
+        "created_at": "2025-11-07T11:20:32Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.8623590460092383,
+      "matched_lay_stake": 5.894837069214785,
+      "avg_lay_odds": 3.8623590460092383,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "09dac00998",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 8.30494932446684,
+      "realised_profit": -0.19505067553316024,
+      "settled_at": "2025-11-07T22:46:46Z"
+    },
+    "bet": {
+      "bet_id": "09dac00998",
+      "candidate": {
+        "team": "Team 8",
+        "bookmaker": "Bet365",
+        "offer_type": "qualifying",
+        "back_odds": 2.7325455144775264,
+        "back_stake": 8.5,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.7607878418402114,
+        "lay_size": 0.0,
+        "lay_stake": 8.474438086190654,
+        "lay_liability": 14.921687548592134,
+        "guaranteed_profit": -0.19505067553316024,
+        "roi": -0.02294713829801885,
+        "created_at": "2025-11-06T08:16:53Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.7607878418402114,
+      "matched_lay_stake": 8.474438086190654,
+      "avg_lay_odds": 2.7607878418402114,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "62854c0783",
+      "result": "win",
+      "actual_bookie_payout": 19.012885819685003,
+      "actual_exchange_pnl": -9.945965569060151,
+      "realised_profit": -0.4930797493751484,
+      "settled_at": "2025-11-07T22:55:35Z"
+    },
+    "bet": {
+      "bet_id": "62854c0783",
+      "candidate": {
+        "team": "Team 741",
+        "bookmaker": "PaddyPower",
+        "offer_type": "qualifying",
+        "back_odds": 1.9887955878331594,
+        "back_stake": 9.56,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.0750117998454023,
+        "lay_size": 0.0,
+        "lay_stake": 9.251959439413115,
+        "lay_liability": 9.945965569060151,
+        "guaranteed_profit": -0.4930797493751484,
+        "roi": -0.05157737964175192,
+        "created_at": "2025-11-07T05:55:49Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.0750117998454023,
+      "matched_lay_stake": 9.251959439413115,
+      "avg_lay_odds": 2.0750117998454023,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "db9a41d094",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 6.6360942320854255,
+      "realised_profit": -0.4839057679145746,
+      "settled_at": "2025-11-10T21:58:57Z"
+    },
+    "bet": {
+      "bet_id": "db9a41d094",
+      "candidate": {
+        "team": "Team 885",
+        "bookmaker": "Bet365",
+        "offer_type": "qualifying",
+        "back_odds": 2.677383275669283,
+        "back_stake": 7.12,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.835166405260518,
+        "lay_size": 0.0,
+        "lay_stake": 6.771524726617781,
+        "lay_liability": 12.426874690679867,
+        "guaranteed_profit": -0.4839057679145746,
+        "roi": -0.06796429324642903,
+        "created_at": "2025-11-09T03:36:27Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.835166405260518,
+      "matched_lay_stake": 6.771524726617781,
+      "avg_lay_odds": 2.835166405260518,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "5f0dd007d0",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 8.426938095458148,
+      "realised_profit": -0.29306190454185277,
+      "settled_at": "2025-11-10T22:04:09Z"
+    },
+    "bet": {
+      "bet_id": "5f0dd007d0",
+      "candidate": {
+        "team": "Team 195",
+        "bookmaker": "PaddyPower",
+        "offer_type": "qualifying",
+        "back_odds": 1.8242916753516392,
+        "back_stake": 8.72,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 1.8699800003618519,
+        "lay_size": 0.0,
+        "lay_stake": 8.598916423936886,
+        "lay_liability": 7.480885313608146,
+        "guaranteed_profit": -0.29306190454185277,
+        "roi": -0.03360801657590055,
+        "created_at": "2025-11-09T12:06:48Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 1.8699800003618519,
+      "matched_lay_stake": 8.598916423936886,
+      "avg_lay_odds": 1.8699800003618519,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "8cedd6e10e",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 8.123939937309387,
+      "realised_profit": 8.123939937309387,
+      "settled_at": "2025-11-10T22:32:30Z"
+    },
+    "bet": {
+      "bet_id": "8cedd6e10e",
+      "candidate": {
+        "team": "Team 101",
+        "bookmaker": "Bet365",
+        "offer_type": "freebet_snr",
+        "back_odds": 3.2347187667967487,
+        "back_stake": 12.28,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.3304010781307913,
+        "lay_size": 0.0,
+        "lay_stake": 8.289734629907539,
+        "lay_liability": 19.318406518954685,
+        "guaranteed_profit": 8.123939937309387,
+        "roi": 0.6615586268167254,
+        "created_at": "2025-11-10T08:33:25Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.3304010781307913,
+      "matched_lay_stake": 8.289734629907539,
+      "avg_lay_odds": 3.3304010781307913,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "d80be9fef2",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 2.6334238900625877,
+      "realised_profit": 2.6334238900625877,
+      "settled_at": "2025-11-10T22:33:38Z"
+    },
+    "bet": {
+      "bet_id": "d80be9fef2",
+      "candidate": {
+        "team": "Team 925",
+        "bookmaker": "Bet365",
+        "offer_type": "freebet_snr",
+        "back_odds": 2.1622016670833593,
+        "back_stake": 5.0,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.182503420052559,
+        "lay_size": 0.0,
+        "lay_stake": 2.6871672347577427,
+        "lay_liability": 3.1775844453542086,
+        "guaranteed_profit": 2.6334238900625873,
+        "roi": 0.5266847780125175,
+        "created_at": "2025-11-10T21:05:00Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.182503420052559,
+      "matched_lay_stake": 2.6871672347577427,
+      "avg_lay_odds": 2.182503420052559,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "2ee92ec6cd",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 5.711410044371838,
+      "realised_profit": 5.711410044371838,
+      "settled_at": "2025-11-10T22:39:08Z"
+    },
+    "bet": {
+      "bet_id": "2ee92ec6cd",
+      "candidate": {
+        "team": "Team 749",
+        "bookmaker": "PaddyPower",
+        "offer_type": "freebet_snr",
+        "back_odds": 2.1405530156029413,
+        "back_stake": 11.15,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.2020921111721803,
+        "lay_size": 0.0,
+        "lay_stake": 5.827969433032488,
+        "lay_liability": 7.005756079600958,
+        "guaranteed_profit": 5.711410044371838,
+        "roi": 0.5122340846970258,
+        "created_at": "2025-11-09T01:05:36Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.2020921111721803,
+      "matched_lay_stake": 5.827969433032488,
+      "avg_lay_odds": 2.2020921111721803,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "3730d21fdf",
+      "result": "win",
+      "actual_bookie_payout": 8.455036637829476,
+      "actual_exchange_pnl": -3.7527380697193657,
+      "realised_profit": -0.2977014318898892,
+      "settled_at": "2025-11-17T18:57:48Z"
+    },
+    "bet": {
+      "bet_id": "3730d21fdf",
+      "candidate": {
+        "team": "Team 874",
+        "bookmaker": "SkyBet",
+        "offer_type": "qualifying",
+        "back_odds": 1.6910073275658952,
+        "back_stake": 5.0,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 1.7821033171449738,
+        "lay_size": 0.0,
+        "lay_stake": 4.798263845010317,
+        "lay_liability": 3.7527380697193657,
+        "guaranteed_profit": -0.2977014318898896,
+        "roi": -0.059540286377977925,
+        "created_at": "2025-11-17T13:56:22Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 1.7821033171449738,
+      "matched_lay_stake": 4.798263845010317,
+      "avg_lay_odds": 1.7821033171449738,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "fead1d7c02",
+      "result": "win",
+      "actual_bookie_payout": 23.680547773983402,
+      "actual_exchange_pnl": -15.182729543653172,
+      "realised_profit": -0.4321817696697696,
+      "settled_at": "2025-11-17T19:04:51Z"
+    },
+    "bet": {
+      "bet_id": "fead1d7c02",
+      "candidate": {
+        "team": "Team 84",
+        "bookmaker": "PaddyPower",
+        "offer_type": "qualifying",
+        "back_odds": 2.651797063156036,
+        "back_stake": 8.93,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.7509288324942087,
+        "lay_size": 0.0,
+        "lay_stake": 8.671243092173702,
+        "lay_liability": 15.182729543653172,
+        "guaranteed_profit": -0.4321817696697714,
+        "roi": -0.04839661474465525,
+        "created_at": "2025-11-16T08:14:15Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.7509288324942087,
+      "matched_lay_stake": 8.671243092173702,
+      "avg_lay_odds": 2.7509288324942087,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "98c7f0d073",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 10.386788463975426,
+      "realised_profit": -0.8032115360245733,
+      "settled_at": "2025-11-17T19:59:27Z"
+    },
+    "bet": {
+      "bet_id": "98c7f0d073",
+      "candidate": {
+        "team": "Team 135",
+        "bookmaker": "WilliamHill",
+        "offer_type": "qualifying",
+        "back_odds": 2.3315593161127235,
+        "back_stake": 11.19,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.4816218825514955,
+        "lay_size": 0.0,
+        "lay_stake": 10.598763738750435,
+        "lay_liability": 15.703360283325946,
+        "guaranteed_profit": -0.8032115360245733,
+        "roi": -0.07177940447047125,
+        "created_at": "2025-11-16T20:01:40Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.4816218825514955,
+      "matched_lay_stake": 10.598763738750435,
+      "avg_lay_odds": 2.4816218825514955,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "76e6f1121b",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 8.793504516043969,
+      "realised_profit": -0.546495483956031,
+      "settled_at": "2025-11-18T21:45:23Z"
+    },
+    "bet": {
+      "bet_id": "76e6f1121b",
+      "candidate": {
+        "team": "Team 136",
+        "bookmaker": "WilliamHill",
+        "offer_type": "qualifying",
+        "back_odds": 3.0093826778983033,
+        "back_stake": 9.34,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.1524805118461394,
+        "lay_size": 0.0,
+        "lay_stake": 8.9729637918816,
+        "lay_liability": 19.314129695526184,
+        "guaranteed_profit": -0.5464954839560328,
+        "roi": -0.05851129378544248,
+        "created_at": "2025-11-17T09:07:22Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.1524805118461394,
+      "matched_lay_stake": 8.9729637918816,
+      "avg_lay_odds": 3.1524805118461394,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "cbf14cca0d",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 8.990156239125719,
+      "realised_profit": 8.990156239125719,
+      "settled_at": "2025-11-18T21:58:17Z"
+    },
+    "bet": {
+      "bet_id": "cbf14cca0d",
+      "candidate": {
+        "team": "Team 827",
+        "bookmaker": "Bet365",
+        "offer_type": "freebet_snr",
+        "back_odds": 3.2692990481676842,
+        "back_stake": 13.53,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.3669433677162393,
+        "lay_size": 0.0,
+        "lay_stake": 9.173628815434407,
+        "lay_liability": 21.71345988258305,
+        "guaranteed_profit": 8.990156239125717,
+        "roi": 0.6644609193736672,
+        "created_at": "2025-11-17T12:30:46Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.3669433677162393,
+      "matched_lay_stake": 9.173628815434407,
+      "avg_lay_odds": 3.3669433677162393,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "f70e75bf78",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 5.986089130930755,
+      "realised_profit": 5.986089130930755,
+      "settled_at": "2025-11-18T22:02:40Z"
+    },
+    "bet": {
+      "bet_id": "f70e75bf78",
+      "candidate": {
+        "team": "Team 26",
+        "bookmaker": "WilliamHill",
+        "offer_type": "freebet_snr",
+        "back_odds": 2.338762078367648,
+        "back_stake": 10.76,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.378297388361168,
+        "lay_size": 0.0,
+        "lay_stake": 6.108254215235465,
+        "lay_liability": 8.418990832305136,
+        "guaranteed_profit": 5.986089130930755,
+        "roi": 0.556327986145981,
+        "created_at": "2025-11-17T14:41:13Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.378297388361168,
+      "matched_lay_stake": 6.108254215235465,
+      "avg_lay_odds": 2.378297388361168,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "ba172bad6f",
+      "result": "win",
+      "actual_bookie_payout": 28.701929237063467,
+      "actual_exchange_pnl": -17.876160084558183,
+      "realised_profit": -0.6642308474947161,
+      "settled_at": "2025-11-18T22:35:29Z"
+    },
+    "bet": {
+      "bet_id": "ba172bad6f",
+      "candidate": {
+        "team": "Team 617",
+        "bookmaker": "Bet365",
+        "offer_type": "qualifying",
+        "back_odds": 2.497992100701781,
+        "back_stake": 11.49,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.6182348465109175,
+        "lay_size": 0.0,
+        "lay_stake": 11.046703216842129,
+        "lay_liability": 17.876160084558183,
+        "guaranteed_profit": -0.6642308474947178,
+        "roi": -0.05780947323713819,
+        "created_at": "2025-11-17T22:31:22Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.6182348465109175,
+      "matched_lay_stake": 11.046703216842129,
+      "avg_lay_odds": 2.6182348465109175,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "c51832ba55",
+      "result": "win",
+      "actual_bookie_payout": 20.462542420213108,
+      "actual_exchange_pnl": -14.535826243753755,
+      "realised_profit": 5.926716176459353,
+      "settled_at": "2025-11-18T22:45:57Z"
+    },
+    "bet": {
+      "bet_id": "c51832ba55",
+      "candidate": {
+        "team": "Team 778",
+        "bookmaker": "SkyBet",
+        "offer_type": "freebet_snr",
+        "back_odds": 3.3359066689740993,
+        "back_stake": 8.76,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.403541741286618,
+        "lay_size": 0.0,
+        "lay_stake": 6.0476695678156664,
+        "lay_liability": 14.535826243753755,
+        "guaranteed_profit": 5.926716176459353,
+        "roi": 0.6765657735684193,
+        "created_at": "2025-11-17T08:29:53Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.403541741286618,
+      "matched_lay_stake": 6.0476695678156664,
+      "avg_lay_odds": 3.403541741286618,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "ab30acae5d",
+      "result": "win",
+      "actual_bookie_payout": 36.61033914565581,
+      "actual_exchange_pnl": -26.301958361176293,
+      "realised_profit": 10.308380784479514,
+      "settled_at": "2025-11-20T19:20:53Z"
+    },
+    "bet": {
+      "bet_id": "ab30acae5d",
+      "candidate": {
+        "team": "Team 827",
+        "bookmaker": "Bet365",
+        "offer_type": "freebet_snr",
+        "back_odds": 3.4054099307263996,
+        "back_stake": 15.22,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.500481863530058,
+        "lay_size": 0.0,
+        "lay_stake": 10.518755902530113,
+        "lay_liability": 26.301958361176293,
+        "guaranteed_profit": 10.30838078447951,
+        "roi": 0.67729177296186,
+        "created_at": "2025-11-20T13:58:28Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.500481863530058,
+      "matched_lay_stake": 10.518755902530113,
+      "avg_lay_odds": 3.500481863530058,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "55a9256585",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 3.8157725693499627,
+      "realised_profit": 3.8157725693499627,
+      "settled_at": "2025-11-20T19:32:32Z"
+    },
+    "bet": {
+      "bet_id": "55a9256585",
+      "candidate": {
+        "team": "Team 883",
+        "bookmaker": "WilliamHill",
+        "offer_type": "freebet_snr",
+        "back_odds": 3.0701747195648768,
+        "back_stake": 5.96,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.188814776634966,
+        "lay_size": 0.0,
+        "lay_stake": 3.8936454789285335,
+        "lay_liability": 8.522468759256704,
+        "guaranteed_profit": 3.815772569349962,
+        "roi": 0.6402302968707989,
+        "created_at": "2025-11-20T08:07:38Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.188814776634966,
+      "matched_lay_stake": 3.8936454789285335,
+      "avg_lay_odds": 3.188814776634966,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "8942e1783a",
+      "result": "win",
+      "actual_bookie_payout": 18.56640050598342,
+      "actual_exchange_pnl": -10.039140092577895,
+      "realised_profit": -0.5527395865944751,
+      "settled_at": "2025-11-21T11:34:21Z"
+    },
+    "bet": {
+      "bet_id": "8942e1783a",
+      "candidate": {
+        "team": "Team 104",
+        "bookmaker": "PaddyPower",
+        "offer_type": "qualifying",
+        "back_odds": 2.0447577649761475,
+        "back_stake": 9.08,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.1537535871731635,
+        "lay_size": 0.0,
+        "lay_stake": 8.701286136128086,
+        "lay_liability": 10.039140092577895,
+        "guaranteed_profit": -0.5527395865944751,
+        "roi": -0.060874403809964214,
+        "created_at": "2025-11-20T02:03:30Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.1537535871731635,
+      "matched_lay_stake": 8.701286136128086,
+      "avg_lay_odds": 2.1537535871731635,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "2ff56e05a8",
+      "result": "win",
+      "actual_bookie_payout": 37.304247964112406,
+      "actual_exchange_pnl": -25.75000878749659,
+      "realised_profit": 11.554239176615816,
+      "settled_at": "2025-11-21T12:08:48Z"
+    },
+    "bet": {
+      "bet_id": "2ff56e05a8",
+      "candidate": {
+        "team": "Team 664",
+        "bookmaker": "Bet365",
+        "offer_type": "freebet_sr",
+        "back_odds": 3.140088212467374,
+        "back_stake": 11.88,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.1840476232151076,
+        "lay_size": 0.0,
+        "lay_stake": 11.790039976138589,
+        "lay_liability": 25.75000878749659,
+        "guaranteed_profit": 11.554239176615816,
+        "roi": 0.9725790552706916,
+        "created_at": "2025-11-20T20:45:18Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.1840476232151076,
+      "matched_lay_stake": 11.790039976138589,
+      "avg_lay_odds": 3.1840476232151076,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "d6f7433267",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 8.223923550101453,
+      "realised_profit": 8.223923550101453,
+      "settled_at": "2025-11-24T18:51:19Z"
+    },
+    "bet": {
+      "bet_id": "d6f7433267",
+      "candidate": {
+        "team": "Team 571",
+        "bookmaker": "SkyBet",
+        "offer_type": "freebet_snr",
+        "back_odds": 3.306151352177724,
+        "back_stake": 12.46,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.4441506210042974,
+        "lay_size": 0.0,
+        "lay_stake": 8.39175872459332,
+        "lay_liability": 20.51072229803299,
+        "guaranteed_profit": 8.223923550101453,
+        "roi": 0.6600259671028453,
+        "created_at": "2025-11-23T14:31:19Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.4441506210042974,
+      "matched_lay_stake": 8.39175872459332,
+      "avg_lay_odds": 3.4441506210042974,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "767e9ac5c2",
+      "result": "win",
+      "actual_bookie_payout": 28.365760118514455,
+      "actual_exchange_pnl": -14.536340596254924,
+      "realised_profit": -0.7905804777404679,
+      "settled_at": "2025-11-24T19:30:52Z"
+    },
+    "bet": {
+      "bet_id": "767e9ac5c2",
+      "candidate": {
+        "team": "Team 217",
+        "bookmaker": "WilliamHill",
+        "offer_type": "qualifying",
+        "back_odds": 1.940202470486625,
+        "back_stake": 14.62,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.030094846815544,
+        "lay_size": 0.0,
+        "lay_stake": 14.111652573734215,
+        "lay_liability": 14.536340596254924,
+        "guaranteed_profit": -0.7905804777404679,
+        "roi": -0.05407527207527141,
+        "created_at": "2025-11-23T20:16:16Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.030094846815544,
+      "matched_lay_stake": 14.111652573734215,
+      "avg_lay_odds": 2.030094846815544,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "da56bbde17",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 7.450088634902728,
+      "realised_profit": 7.450088634902728,
+      "settled_at": "2025-11-24T19:39:10Z"
+    },
+    "bet": {
+      "bet_id": "da56bbde17",
+      "candidate": {
+        "team": "Team 552",
+        "bookmaker": "WilliamHill",
+        "offer_type": "freebet_snr",
+        "back_odds": 3.4434303856349677,
+        "back_stake": 10.9,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.523411121456209,
+        "lay_size": 0.0,
+        "lay_stake": 7.602131260104825,
+        "lay_liability": 19.183302568518418,
+        "guaranteed_profit": 7.450088634902728,
+        "roi": 0.6834943701745622,
+        "created_at": "2025-11-23T17:41:58Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.523411121456209,
+      "matched_lay_stake": 7.602131260104825,
+      "avg_lay_odds": 3.523411121456209,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "26db098ccb",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 5.293164090937119,
+      "realised_profit": -0.14683590906288124,
+      "settled_at": "2025-11-24T19:43:31Z"
+    },
+    "bet": {
+      "bet_id": "26db098ccb",
+      "candidate": {
+        "team": "Team 774",
+        "bookmaker": "Bet365",
+        "offer_type": "qualifying",
+        "back_odds": 2.9777646554666655,
+        "back_stake": 5.44,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.019162440175422,
+        "lay_size": 0.0,
+        "lay_stake": 5.401187847895019,
+        "lay_liability": 10.905875634801543,
+        "guaranteed_profit": -0.14683590906288302,
+        "roi": -0.026991895048324083,
+        "created_at": "2025-11-23T22:43:36Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.019162440175422,
+      "matched_lay_stake": 5.401187847895019,
+      "avg_lay_odds": 3.019162440175422,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "5fb244f28f",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 11.025111908574742,
+      "realised_profit": -0.6548880914252582,
+      "settled_at": "2025-11-24T19:45:14Z"
+    },
+    "bet": {
+      "bet_id": "5fb244f28f",
+      "candidate": {
+        "team": "Team 480",
+        "bookmaker": "WilliamHill",
+        "offer_type": "qualifying",
+        "back_odds": 3.153725404181789,
+        "back_stake": 11.68,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.2942345624946188,
+        "lay_size": 0.0,
+        "lay_stake": 11.250114192423206,
+        "lay_liability": 25.810400812268554,
+        "guaranteed_profit": -0.6548880914252582,
+        "roi": -0.05606918590969676,
+        "created_at": "2025-11-23T07:41:41Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.2942345624946188,
+      "matched_lay_stake": 11.250114192423206,
+      "avg_lay_odds": 3.2942345624946188,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "a1a45f7c6d",
+      "result": "win",
+      "actual_bookie_payout": 28.353427168244846,
+      "actual_exchange_pnl": -17.05582716893869,
+      "realised_profit": -0.8924000006938453,
+      "settled_at": "2025-11-26T19:17:37Z"
+    },
+    "bet": {
+      "bet_id": "a1a45f7c6d",
+      "candidate": {
+        "team": "Team 446",
+        "bookmaker": "SkyBet",
+        "offer_type": "qualifying",
+        "back_odds": 2.3259579301267306,
+        "back_stake": 12.19,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.479492159979682,
+        "lay_size": 0.0,
+        "lay_stake": 11.528163264598117,
+        "lay_liability": 17.05582716893869,
+        "guaranteed_profit": -0.8924000006938471,
+        "roi": -0.07320754722673069,
+        "created_at": "2025-11-26T02:44:47Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.479492159979682,
+      "matched_lay_stake": 11.528163264598117,
+      "avg_lay_odds": 2.479492159979682,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "62cfd54645",
+      "result": "win",
+      "actual_bookie_payout": 24.466206192062167,
+      "actual_exchange_pnl": -18.025560999151022,
+      "realised_profit": 6.440645192911145,
+      "settled_at": "2025-11-26T19:21:24Z"
+    },
+    "bet": {
+      "bet_id": "62cfd54645",
+      "candidate": {
+        "team": "Team 892",
+        "bookmaker": "WilliamHill",
+        "offer_type": "freebet_sr",
+        "back_odds": 3.651672565979428,
+        "back_stake": 6.7,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.7427453694562964,
+        "lay_size": 0.0,
+        "lay_stake": 6.572086931541985,
+        "lay_liability": 18.025560999151022,
+        "guaranteed_profit": 6.440645192911145,
+        "roi": 0.9612903273001708,
+        "created_at": "2025-11-25T09:19:21Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.7427453694562964,
+      "matched_lay_stake": 6.572086931541985,
+      "avg_lay_odds": 3.7427453694562964,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "94e13c4e8b",
+      "result": "win",
+      "actual_bookie_payout": 18.144886459428776,
+      "actual_exchange_pnl": -12.563742034620667,
+      "realised_profit": 5.581144424808109,
+      "settled_at": "2025-11-26T19:47:10Z"
+    },
+    "bet": {
+      "bet_id": "94e13c4e8b",
+      "candidate": {
+        "team": "Team 941",
+        "bookmaker": "Bet365",
+        "offer_type": "freebet_sr",
+        "back_odds": 3.117678085812504,
+        "back_stake": 5.82,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.206082884936557,
+        "lay_size": 0.0,
+        "lay_stake": 5.695045331436846,
+        "lay_liability": 12.563742034620667,
+        "guaranteed_profit": 5.581144424808109,
+        "roi": 0.9589595231629052,
+        "created_at": "2025-11-26T06:03:11Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.206082884936557,
+      "matched_lay_stake": 5.695045331436846,
+      "avg_lay_odds": 3.206082884936557,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "13676d6bc7",
+      "result": "win",
+      "actual_bookie_payout": 19.645984868620335,
+      "actual_exchange_pnl": -8.979964248975179,
+      "realised_profit": -0.6439793803548444,
+      "settled_at": "2025-11-26T19:54:47Z"
+    },
+    "bet": {
+      "bet_id": "13676d6bc7",
+      "candidate": {
+        "team": "Team 247",
+        "bookmaker": "Bet365",
+        "offer_type": "qualifying",
+        "back_odds": 1.7370455233086062,
+        "back_stake": 11.31,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 1.825084188172932,
+        "lay_size": 0.0,
+        "lay_stake": 10.883694509841995,
+        "lay_liability": 8.979964248975179,
+        "guaranteed_profit": -0.6439793803548461,
+        "roi": -0.05693893725507039,
+        "created_at": "2025-11-26T07:05:50Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 1.825084188172932,
+      "matched_lay_stake": 10.883694509841995,
+      "avg_lay_odds": 1.825084188172932,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "74922ce49b",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 12.732561642398503,
+      "realised_profit": -0.7974383576014965,
+      "settled_at": "2025-11-26T20:00:46Z"
+    },
+    "bet": {
+      "bet_id": "74922ce49b",
+      "candidate": {
+        "team": "Team 894",
+        "bookmaker": "PaddyPower",
+        "offer_type": "qualifying",
+        "back_odds": 3.1429806496119284,
+        "back_stake": 13.53,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.293028538632233,
+        "lay_size": 0.0,
+        "lay_stake": 12.992409839182146,
+        "lay_liability": 29.791966546850883,
+        "guaranteed_profit": -0.7974383576014965,
+        "roi": -0.05893853345169967,
+        "created_at": "2025-11-26T13:20:31Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.293028538632233,
+      "matched_lay_stake": 12.992409839182146,
+      "avg_lay_odds": 3.293028538632233,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "c7e5b029f2",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 5.776940327830489,
+      "realised_profit": 5.776940327830489,
+      "settled_at": "2025-11-26T20:20:03Z"
+    },
+    "bet": {
+      "bet_id": "c7e5b029f2",
+      "candidate": {
+        "team": "Team 383",
+        "bookmaker": "PaddyPower",
+        "offer_type": "freebet_snr",
+        "back_odds": 3.7791509862144803,
+        "back_stake": 8.15,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.8623590460092383,
+        "lay_size": 0.0,
+        "lay_stake": 5.894837069214785,
+        "lay_liability": 16.873140209817524,
+        "guaranteed_profit": 5.776940327830489,
+        "roi": 0.7088270340896304,
+        "created_at": "2025-11-26T10:16:58Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.8623590460092383,
+      "matched_lay_stake": 5.894837069214785,
+      "avg_lay_odds": 3.8623590460092383,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "4a56c094ee",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 8.30494932446684,
+      "realised_profit": -0.19505067553316024,
+      "settled_at": "2025-11-26T20:23:15Z"
+    },
+    "bet": {
+      "bet_id": "4a56c094ee",
+      "candidate": {
+        "team": "Team 8",
+        "bookmaker": "Bet365",
+        "offer_type": "qualifying",
+        "back_odds": 2.7325455144775264,
+        "back_stake": 8.5,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.7607878418402114,
+        "lay_size": 0.0,
+        "lay_stake": 8.474438086190654,
+        "lay_liability": 14.921687548592134,
+        "guaranteed_profit": -0.19505067553316024,
+        "roi": -0.02294713829801885,
+        "created_at": "2025-11-26T13:46:06Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.7607878418402114,
+      "matched_lay_stake": 8.474438086190654,
+      "avg_lay_odds": 2.7607878418402114,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "598d1d042a",
+      "result": "win",
+      "actual_bookie_payout": 19.012885819685003,
+      "actual_exchange_pnl": -9.945965569060151,
+      "realised_profit": -0.4930797493751484,
+      "settled_at": "2025-11-26T20:23:27Z"
+    },
+    "bet": {
+      "bet_id": "598d1d042a",
+      "candidate": {
+        "team": "Team 741",
+        "bookmaker": "PaddyPower",
+        "offer_type": "qualifying",
+        "back_odds": 1.9887955878331594,
+        "back_stake": 9.56,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.0750117998454023,
+        "lay_size": 0.0,
+        "lay_stake": 9.251959439413115,
+        "lay_liability": 9.945965569060151,
+        "guaranteed_profit": -0.4930797493751484,
+        "roi": -0.05157737964175192,
+        "created_at": "2025-11-25T18:12:18Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.0750117998454023,
+      "matched_lay_stake": 9.251959439413115,
+      "avg_lay_odds": 2.0750117998454023,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "7f00cdd797",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 6.6360942320854255,
+      "realised_profit": -0.4839057679145746,
+      "settled_at": "2025-11-26T20:35:16Z"
+    },
+    "bet": {
+      "bet_id": "7f00cdd797",
+      "candidate": {
+        "team": "Team 885",
+        "bookmaker": "Bet365",
+        "offer_type": "qualifying",
+        "back_odds": 2.677383275669283,
+        "back_stake": 7.12,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.835166405260518,
+        "lay_size": 0.0,
+        "lay_stake": 6.771524726617781,
+        "lay_liability": 12.426874690679867,
+        "guaranteed_profit": -0.4839057679145746,
+        "roi": -0.06796429324642903,
+        "created_at": "2025-11-25T07:45:54Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.835166405260518,
+      "matched_lay_stake": 6.771524726617781,
+      "avg_lay_odds": 2.835166405260518,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "c2e07b99a2",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 8.426938095458148,
+      "realised_profit": -0.29306190454185277,
+      "settled_at": "2025-11-26T20:45:20Z"
+    },
+    "bet": {
+      "bet_id": "c2e07b99a2",
+      "candidate": {
+        "team": "Team 195",
+        "bookmaker": "PaddyPower",
+        "offer_type": "qualifying",
+        "back_odds": 1.8242916753516392,
+        "back_stake": 8.72,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 1.8699800003618519,
+        "lay_size": 0.0,
+        "lay_stake": 8.598916423936886,
+        "lay_liability": 7.480885313608146,
+        "guaranteed_profit": -0.29306190454185277,
+        "roi": -0.03360801657590055,
+        "created_at": "2025-11-26T11:03:12Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 1.8699800003618519,
+      "matched_lay_stake": 8.598916423936886,
+      "avg_lay_odds": 1.8699800003618519,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "06b996c48e",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 8.123939937309387,
+      "realised_profit": 8.123939937309387,
+      "settled_at": "2025-11-27T12:35:35Z"
+    },
+    "bet": {
+      "bet_id": "06b996c48e",
+      "candidate": {
+        "team": "Team 101",
+        "bookmaker": "Bet365",
+        "offer_type": "freebet_snr",
+        "back_odds": 3.2347187667967487,
+        "back_stake": 12.28,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.3304010781307913,
+        "lay_size": 0.0,
+        "lay_stake": 8.289734629907539,
+        "lay_liability": 19.318406518954685,
+        "guaranteed_profit": 8.123939937309387,
+        "roi": 0.6615586268167254,
+        "created_at": "2025-11-27T01:25:23Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.3304010781307913,
+      "matched_lay_stake": 8.289734629907539,
+      "avg_lay_odds": 3.3304010781307913,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "3510d7545a",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 2.6334238900625877,
+      "realised_profit": 2.6334238900625877,
+      "settled_at": "2025-11-27T12:40:39Z"
+    },
+    "bet": {
+      "bet_id": "3510d7545a",
+      "candidate": {
+        "team": "Team 925",
+        "bookmaker": "Bet365",
+        "offer_type": "freebet_snr",
+        "back_odds": 2.1622016670833593,
+        "back_stake": 5.0,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.182503420052559,
+        "lay_size": 0.0,
+        "lay_stake": 2.6871672347577427,
+        "lay_liability": 3.1775844453542086,
+        "guaranteed_profit": 2.6334238900625873,
+        "roi": 0.5266847780125175,
+        "created_at": "2025-11-26T12:55:12Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.182503420052559,
+      "matched_lay_stake": 2.6871672347577427,
+      "avg_lay_odds": 2.182503420052559,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "ace39ead39",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 5.711410044371838,
+      "realised_profit": 5.711410044371838,
+      "settled_at": "2025-11-27T13:12:15Z"
+    },
+    "bet": {
+      "bet_id": "ace39ead39",
+      "candidate": {
+        "team": "Team 749",
+        "bookmaker": "PaddyPower",
+        "offer_type": "freebet_snr",
+        "back_odds": 2.1405530156029413,
+        "back_stake": 11.15,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.2020921111721803,
+        "lay_size": 0.0,
+        "lay_stake": 5.827969433032488,
+        "lay_liability": 7.005756079600958,
+        "guaranteed_profit": 5.711410044371838,
+        "roi": 0.5122340846970258,
+        "created_at": "2025-11-26T02:08:55Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.2020921111721803,
+      "matched_lay_stake": 5.827969433032488,
+      "avg_lay_odds": 2.2020921111721803,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "e718f796a4",
+      "result": "win",
+      "actual_bookie_payout": 8.455036637829476,
+      "actual_exchange_pnl": -3.7527380697193657,
+      "realised_profit": -0.2977014318898892,
+      "settled_at": "2025-11-27T13:32:43Z"
+    },
+    "bet": {
+      "bet_id": "e718f796a4",
+      "candidate": {
+        "team": "Team 874",
+        "bookmaker": "SkyBet",
+        "offer_type": "qualifying",
+        "back_odds": 1.6910073275658952,
+        "back_stake": 5.0,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 1.7821033171449738,
+        "lay_size": 0.0,
+        "lay_stake": 4.798263845010317,
+        "lay_liability": 3.7527380697193657,
+        "guaranteed_profit": -0.2977014318898896,
+        "roi": -0.059540286377977925,
+        "created_at": "2025-11-25T14:38:41Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 1.7821033171449738,
+      "matched_lay_stake": 4.798263845010317,
+      "avg_lay_odds": 1.7821033171449738,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "3cadd5b0d5",
+      "result": "win",
+      "actual_bookie_payout": 23.680547773983402,
+      "actual_exchange_pnl": -15.182729543653172,
+      "realised_profit": -0.4321817696697696,
+      "settled_at": "2025-11-27T22:02:51Z"
+    },
+    "bet": {
+      "bet_id": "3cadd5b0d5",
+      "candidate": {
+        "team": "Team 84",
+        "bookmaker": "PaddyPower",
+        "offer_type": "qualifying",
+        "back_odds": 2.651797063156036,
+        "back_stake": 8.93,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.7509288324942087,
+        "lay_size": 0.0,
+        "lay_stake": 8.671243092173702,
+        "lay_liability": 15.182729543653172,
+        "guaranteed_profit": -0.4321817696697714,
+        "roi": -0.04839661474465525,
+        "created_at": "2025-11-26T20:23:23Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.7509288324942087,
+      "matched_lay_stake": 8.671243092173702,
+      "avg_lay_odds": 2.7509288324942087,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "f196978e83",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 10.386788463975426,
+      "realised_profit": -0.8032115360245733,
+      "settled_at": "2025-11-27T22:27:19Z"
+    },
+    "bet": {
+      "bet_id": "f196978e83",
+      "candidate": {
+        "team": "Team 135",
+        "bookmaker": "WilliamHill",
+        "offer_type": "qualifying",
+        "back_odds": 2.3315593161127235,
+        "back_stake": 11.19,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 2.4816218825514955,
+        "lay_size": 0.0,
+        "lay_stake": 10.598763738750435,
+        "lay_liability": 15.703360283325946,
+        "guaranteed_profit": -0.8032115360245733,
+        "roi": -0.07177940447047125,
+        "created_at": "2025-11-27T08:09:16Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 2.4816218825514955,
+      "matched_lay_stake": 10.598763738750435,
+      "avg_lay_odds": 2.4816218825514955,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "7dcfd766c4",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 8.793504516043969,
+      "realised_profit": -0.546495483956031,
+      "settled_at": "2025-11-27T22:29:42Z"
+    },
+    "bet": {
+      "bet_id": "7dcfd766c4",
+      "candidate": {
+        "team": "Team 136",
+        "bookmaker": "WilliamHill",
+        "offer_type": "qualifying",
+        "back_odds": 3.0093826778983033,
+        "back_stake": 9.34,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.1524805118461394,
+        "lay_size": 0.0,
+        "lay_stake": 8.9729637918816,
+        "lay_liability": 19.314129695526184,
+        "guaranteed_profit": -0.5464954839560328,
+        "roi": -0.05851129378544248,
+        "created_at": "2025-11-27T16:46:13Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.1524805118461394,
+      "matched_lay_stake": 8.9729637918816,
+      "avg_lay_odds": 3.1524805118461394,
+      "settled_at": null
+    }
+  },
+  {
+    "settlement": {
+      "bet_id": "b280bf18b3",
+      "result": "lose",
+      "actual_bookie_payout": 0.0,
+      "actual_exchange_pnl": 8.990156239125719,
+      "realised_profit": 8.990156239125719,
+      "settled_at": "2025-11-27T22:50:33Z"
+    },
+    "bet": {
+      "bet_id": "b280bf18b3",
+      "candidate": {
+        "team": "Team 827",
+        "bookmaker": "Bet365",
+        "offer_type": "freebet_snr",
+        "back_odds": 3.2692990481676842,
+        "back_stake": 13.53,
+        "commission": 0.02,
+        "market_id": null,
+        "selection_id": null,
+        "event_name": null,
+        "event_time": null,
+        "lay_odds": 3.3669433677162393,
+        "lay_size": 0.0,
+        "lay_stake": 9.173628815434407,
+        "lay_liability": 21.71345988258305,
+        "guaranteed_profit": 8.990156239125717,
+        "roi": 0.6644609193736672,
+        "created_at": "2025-11-27T12:43:08Z"
+      },
+      "status": "fully_matched",
+      "expected_lay_odds": 3.3669433677162393,
+      "matched_lay_stake": 9.173628815434407,
+      "avg_lay_odds": 3.3669433677162393,
+      "settled_at": null
+    }
+  }
+]
