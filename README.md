@@ -1,143 +1,154 @@
 # Matched Betting Risk Engine
 
-A Python engine + Streamlit dashboard for **pricing**, **tracking**, and **risk-modelling** matched betting positions across bookmakers and an exchange (e.g., Betfair).
+This is a Python-based matched betting engine with a Streamlit dashboard.  
+It prices bets, tracks bankroll and liabilities, records real execution (including partial matches), and runs Monte Carlo simulations to quantify risk on open positions.
 
-It’s not a “tips” app. It’s a **position + cashflow system**:
-- you input/ingest offers and odds
-- the engine computes optimal stakes + liabilities
-- you record execution (including imperfect fills)
-- you settle outcomes into realised PnL
-- you run Monte Carlo to quantify bankroll risk (VaR-style) on the open book
-- the UI visualises equity and drawdown
+It’s built to treat matched betting like a small trading book:
+- every bet is a position
+- cash is tracked explicitly
+- liabilities are real
+- risk is modelled, not assumed away
 
 ---
 
-## Overview (what it actually does)
+## What It Actually Does
 
-**Inputs:** offers, back odds, lay odds, commission, stake limits, bankroll constraints, (optional) execution fill information.  
-**Outputs:** recommended staking, locked cash/liability, expected profit, realised profit after settlement, and a risk distribution for final bankroll given open bets.
+You input:
+- Offer type (qualifying, SNR, SR)
+- Back odds
+- Lay odds
+- Stake or promo amount
+- Exchange commission
 
-The key idea: the system treats each bet as a **financial position** with:
-- cash outflows/inflows
-- liabilities
-- settlement rules
-- execution uncertainty (partial matches, slippage, voids)
+The system:
+- Calculates optimal lay stake and liability
+- Tracks locked cash and exposure
+- Records matching (including partial fills)
+- Settles bets into realised PnL
+- Simulates final bankroll distribution using Monte Carlo
+- Shows equity curve and drawdown metrics in the dashboard
+
+It’s not a “find bets” tool. It’s a pricing + execution + risk system.
 
 ---
 
 ## Architecture
 
-High-level layering (keep this separation — it’s the whole point):
+The project is deliberately layered. Logic lives in the engine, not the UI.
 
 ### `engine/`
-Core domain logic. No Streamlit, no UI state. Pure Python.
+Core domain logic only. No Streamlit, no UI state. Everything here should be testable in isolation.
 
-### Repo layer (persistence)
-Responsible for reading/writing the system state:
-- bankroll / available cash
+### Repo Layer (Persistence)
+Handles reading and writing:
+- bankroll state
 - open bets
 - settled bets
-- configuration (commission, assumptions, etc.)
+- configuration
 
-Typically JSON/CSV-first so you can inspect and debug without a database.
+Currently file-based (JSON/CSV-first) so state is transparent and easy to debug.
 
-### Execution layer
-Turns priced opportunities into *positions* and updates them as reality happens:
-- place a bet (creates an open position)
-- update matching (partial/full)
-- record the actual matched prices/stakes
-- settle into realised PnL
-- maintain a ledger-like record of changes
+### Execution Layer
+Responsible for:
+- Creating new bet positions
+- Updating match status (partial → full)
+- Storing realised matched prices/stakes
+- Settling bets into realised PnL
+- Updating bankroll and ledger entries
 
-### Analytics layer
-Computes reporting tables and derived metrics from repo state:
-- performance summaries (by offer type, by result, totals)
-- equity curve and drawdowns
-- exposure/locked cash/liability snapshots
-- quality checks / data validation summaries
+### Analytics Layer
+Builds:
+- Performance summaries
+- Profit breakdown by offer type
+- Equity curve
+- Drawdown series
+- Risk snapshots
 
-### Monte Carlo layer
-Simulates bankroll outcomes under uncertainty for the current set of open bets:
-- samples outcomes + execution noise (fill/slippage/void)
-- produces distribution of final bankroll
-- reports downside risk metrics (VaR-style, probability of drawdown)
+Purely derived from stored state.
+
+### Monte Carlo Layer
+Simulates:
+- Event outcomes
+- Execution uncertainty
+- Final bankroll distribution
+
+Reports:
+- Mean final bankroll
+- Worst X% outcome (quantile-based VaR)
+- Probability of finishing below current bankroll
 
 ### Streamlit UI
-A thin shell:
-- collects inputs
-- calls engine/execution/analytics functions
-- renders tables and charts
-- never contains “business logic” that you can’t unit-test
+Thin interface layer:
+- Takes inputs
+- Calls engine functions
+- Renders tables and charts
 
-If your logic lives in Streamlit, you’ve already lost.
+If business logic starts creeping into Streamlit, that’s a design failure.
 
 ---
 
 ## Core Features
 
-- **Pricing engine** for:
+- Pricing engine for:
   - Qualifying bets
-  - SNR (stake-not-returned free bets)
-  - SR (stake-returned free bets)
-- **Partial lay matching**:
-  - supports incomplete exchange fills and updates liabilities correctly
-- **Settlement with realised PnL**:
-  - closes positions into the ledger/state
-- **Ledger + bankroll tracking**:
-  - tracks available cash, locked funds, liabilities, and realised profit
-- **Monte Carlo risk modelling**:
-  - simulates final bankroll distribution on the open book
-- **Equity / drawdown analytics dashboard**:
-  - equity curve, drawdown series, performance breakdowns, and risk snapshots
+  - Stake Not Returned (SNR) free bets
+  - Stake Returned (SR) free bets
+- Partial lay matching support
+- Realised PnL settlement
+- Explicit bankroll + liability tracking
+- Monte Carlo risk modelling on open bets
+- Equity and drawdown dashboard
 
 ---
 
-## Risk Model Assumptions (explicit)
+## Risk Model Assumptions
 
-These assumptions matter. If you don’t like them, change them — but don’t pretend they don’t exist.
+These are explicit so you know what’s being assumed.
 
-### Fill model
-- Each open bet has a **fill fraction** on the exchange leg:  
-  \[
-  f \sim \text{FillDistribution}(\cdot)
-  \]
-- Default: treat `f` as fixed at the currently observed match status when available (fully matched = 1, partial = current fraction), otherwise sample `f` from a configured distribution (e.g., Beta or a simple discrete model).
+### Fill Model
+If a bet isn’t fully matched:
+- The matched fraction is either taken as observed
+- Or sampled from a configurable distribution
 
-**Interpretation:** liquidity is not guaranteed; some exposure can remain unmatched.
+Unmatched exposure is real and affects outcomes.
 
-### Slippage model
-- The realised lay odds are perturbed from the quoted lay odds:
-  \[
-  L_{\text{real}} = L_{\text{quote}} + \epsilon
-  \]
-- Default: \(\epsilon\) is sampled from a small symmetric noise model (or a conservative one-sided model if you want to penalise adverse fills).
+### Slippage Model
+Lay odds may deviate from quoted odds:
+\[
+L_{real} = L_{quote} + \epsilon
+\]
 
-**Interpretation:** your execution price is uncertain; worse fills increase liability / reduce edge.
+\(\epsilon\) is sampled from a small noise model (typically adverse or symmetric).
 
-### Void modelling
-- Each bet has an independent probability of void:
-  \[
-  v \sim \text{Bernoulli}(p_{\text{void}})
-  \]
-- If voided: stake and exchange exposure are unwound according to rules you define (bookmaker void, exchange cancellation, etc.).
+Execution isn’t assumed perfect.
 
-**Interpretation:** cancellations happen; modelling it stops you overstating certainty.
+### Void Modelling
+Each bet can be voided with probability \(p_{void}\).
 
-### Independence assumptions
-- Base model assumes:
-  - event outcomes are independent across bets **unless** you explicitly model correlation
-  - execution noise (fill/slippage/void) is independent across bets
+If voided:
+- Stakes and liabilities unwind according to defined rules.
 
-**Reality check:** independence is false when you stack bets on the same match/market/day or face shared liquidity conditions. If you frequently have clustered exposure, you should implement correlation (see Future Improvements).
+### Independence Assumptions
+By default:
+- Event outcomes are independent
+- Execution noise is independent
 
-### VaR computation method
-- Monte Carlo produces a distribution of **final bankroll** \(B_T\).
-- Report downside via quantiles (empirical):
-  - “Worst 1% outcome” = 1st percentile of \(B_T\)
-  - “Downside 1%” = \(\max(0, B_0 - \text{VaR}_{1\%})\)
-  - \(P(B_T < B_0)\) as probability of finishing below current bankroll
+This is a simplification. If you stack bets on the same event, correlation is not modelled unless explicitly added.
 
-This is **simulation VaR** (quantile-based), not parametric VaR.
+### VaR Method
+Monte Carlo produces a distribution of final bankroll.
+
+Downside metrics are computed empirically:
+- 1% worst outcome = 1st percentile
+- Probability of finishing below current bankroll
+- Downside at 1%
+
+This is simulation-based VaR, not parametric.
 
 ---
 
+## How to Run
+
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
